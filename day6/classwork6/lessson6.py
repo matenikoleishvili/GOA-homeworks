@@ -4,7 +4,6 @@ classwork:
 დაწერეთ პროგრამა, რომელიც მომხმარებელს შეეკითხება მის სახელს, ასაკს და გვარს,
 და დაუპრინტავს ამ ინფორმაციას ერთ დიდ წინადადებაში"""
 
-
 name = input (" what is your name? : ")
 surname = input (" what is your surname? : ")
 age = input (" what is your age? : ")
