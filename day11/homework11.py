@@ -10,7 +10,7 @@ while i <=20:
 განაგრძეთ კითხვა, სანამ სწორი პაროლი არ იქნება შეყვანილი. დავუშვათ,
  რომ სწორი პაროლი არის "12345678"."""
 
-Password = float(input("Enter your password"))
+Password = float(input("Enter your password:"))
 
 if Password == 12345678:
     print("password is correct")
@@ -33,12 +33,24 @@ print("Time's up")
 """4:შეამოწმეთ ლუწია თუ კენტი: დაწერეთ პროგრამა, 
 რომელიც მომხმარებელს სთხოვს რიცხვს და ბეჭდავს ლუწია თუ კენტი."""
 
+"""ვარიანტი 1 :""" 
 number = float(input("Please enter a number from 1 to 10:"))
 
 i = 2,4,6,8,10
 
 if number == i:
     print(" This number Odd")
+else:
+    print("This number Even")
+
+"""ვარიანტი 2 :"""
+
+
+number = float(input("Please enter a number from 1 to 10:"))
+
+while number % 2 != 0:
+    print("This number Odd")
+    break
 else:
     print("This number Even")
 
